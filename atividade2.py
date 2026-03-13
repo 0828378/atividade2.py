@@ -1,5 +1,4 @@
-
-# DESAFIO 1-ESTOQUE DE ELETRÔNICOS
+# Dever 1
 estoque = [
     {"nome": "Notebook", "preco": 3500, "quantidade": 3},
     {"nome": "Mouse", "preco": 80, "quantidade": 10},
@@ -25,7 +24,7 @@ produtos_em_falta = [item["nome"] for item in estoque if item["quantidade"] == 0
 print("Produtos em falta:", produtos_em_falta)
 
 
-# DESAFIO 2-ANALISADOR DE TEXTO
+# Dever 2
 
 frase = input("\nDigite uma frase: ")
 palavras = frase.lower().split()
